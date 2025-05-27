@@ -9,6 +9,7 @@ import {
   TailwindCSS,
   TypescriptIcon,
   ExpoIcon,
+  MongoDBIcon,
 } from '../utils/icons'
 
 // Project Data
@@ -84,6 +85,12 @@ export const serviceData = [
     title: 'App Development',
     shortDescription:
       'Designing beautiful and responsive interfaces for mobile view with React Native',
+  },
+  {
+    icon: MongoDBIcon,
+    title: 'Backend Development',
+    shortDescription:
+      'Designing and implementing database schemas, queries, and integrations using MongoDB to efficiently manage and store application data.',
   },
 ]
 

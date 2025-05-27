@@ -14,6 +14,7 @@ import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
 import ExpoIcon from '../assets/icons/expo.svg'
+import MongoDBIcon from '../assets/icons/mongodb.svg'
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -338,4 +339,5 @@ export {
   Timer,
   TypescriptIcon,
   X,
+  MongoDBIcon,
 }

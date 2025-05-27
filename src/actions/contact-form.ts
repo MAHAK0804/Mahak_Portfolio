@@ -10,6 +10,7 @@ const action = async (formData: FormData) => {
     const email = formData.get('email')?.toString()
     const subject = formData.get('subject')?.toString()
     const message = formData.get('message')?.toString()
+    const isVisited = false
 
     if (!name || !email || !subject || !message) {
       return { success: false, message: 'All fields are required.' }
@@ -22,6 +23,7 @@ const action = async (formData: FormData) => {
       email,
       subject,
       message,
+      isVisited,
     })
 
     // Send email using Nodemailer
