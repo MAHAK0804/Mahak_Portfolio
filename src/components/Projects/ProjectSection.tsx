@@ -39,6 +39,34 @@ const projects: Project[] = [
     techStack: ['React Native', 'NextJS', 'Postgres', 'Redux', 'Tailwind CSS', 'TypeScript'],
     teamSize: '8–9',
   },
+  {
+    title: 'Food Recipe App',
+    role: 'React Native Developer',
+    description: `A cross-platform mobile app featuring detailed recipes, smart grocery list, cooking timer with notifications, nutrition info, multi-language support, subscriptions, and premium features like weekly meal planner.`,
+    techStack: ['React Native', 'Expo', 'Firebase', 'Redux Toolkit', 'AsyncStorage'],
+    teamSize: 'Solo',
+  },
+  {
+    title: 'Hindi Shayari App',
+    role: 'React Native Developer',
+    description: `A mobile app offering a collection of categorized Hindi Shayari with options to mark favorites, share content, multi-language support, and a custom settings and support section.`,
+    techStack: ['React Native', 'Expo', 'AsyncStorage', 'React Navigation'],
+    teamSize: 'Solo',
+  },
+  {
+    title: 'Education Management System',
+    role: 'Full Stack Developer',
+    description: `A full-stack web application designed for managing student records, attendance, assignments, and exam results. Includes search, filter, sort, pagination, and CRUD functionality for admins and teachers.`,
+    techStack: ['React', 'Node JS', 'Express.js', 'MongoDB', 'Axios'],
+    teamSize: 'Solo',
+  },
+  {
+    title: 'Chat Application',
+    role: 'Web Developer',
+    description: `A simple real-time chat application that allows users to send and receive messages with authentication and basic UI.`,
+    techStack: ['React', 'Node.js', 'Socket.io', 'MongoDB'],
+    teamSize: 'Solo',
+  },
 ]
 
 export default function ProjectSection() {

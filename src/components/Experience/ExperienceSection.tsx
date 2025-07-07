@@ -8,9 +8,24 @@ type Experience = {
 
 const experiences: Experience[] = [
   {
-    company: 'Geeks2Connect, Jaipur',
-    role: 'Associate Software Development Engineer',
-    description: `Joined the organization as ASDE and provided direction for applications in development. Researched and developed new ways to improve the development process, also learned about Next.js, Expo, React Native, and many more frameworks and tools that have enhanced skills to individually handle and manage projects.`,
+    company: 'Staveo Tech Pvt. Ltd., New Delhi',
+    role: 'Mobile Application Developer',
+    description: `Working as a full-time Mobile App Developer, building high-quality Android and iOS applications using React Native and Expo. Responsible for implementing core features, integrating Firebase, managing state with Redux Toolkit, and optimizing performance. Also involved in publishing apps to the Play Store and maintaining production builds.`,
+  },
+  {
+    company: 'Geeks2Connect Infotech Pvt Ltd, Jaipur',
+    role: 'Associate Software Development Engineer Intern',
+    description: `Joined as an ASDE Intern and contributed as a Full Stack Developer and App Developer. Worked on various web and mobile application projects using React, React Native, Expo, Express.js, MongoDB, and Firebase. Gained experience in individually handling projects, designing UI, managing APIs, integrating third-party services like payment gateways, and deploying apps.`,
+  },
+  {
+    company: 'Celebal Technologies, Jaipur',
+    role: 'Node.js Developer Intern',
+    description: `Worked as a backend developer using Node.js and Express. Built REST APIs and collaborated with frontend teams to integrate features. Gained hands-on experience with MongoDB, authentication mechanisms, and project structure.`,
+  },
+  {
+    company: 'Learn and Build, Remote',
+    role: 'MERN Stack Developer',
+    description: `Developed full-stack web applications using the MERN stack. Built interactive UIs with React, implemented APIs in Node.js/Express, and used MongoDB for database operations. Enhanced skills in deployment, project architecture, and version control.`,
   },
 ]
 
